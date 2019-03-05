@@ -1,0 +1,34 @@
+
+.features1 {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: white;
+  box-shadow: 0px -2px 18px 0px rgba(72, 89, 102, 0.25);
+  border-radius: 10px;
+  }
+
+  .button1 {
+      display: block;
+      height: 44px;
+      line-height: 43px;
+      padding: 0 20px;
+      font-family: Open Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 1px;
+      color: white;
+      background-color: #68c0f8;
+      box-shadow: 0 8px 14px 0 #DEE2E5;
+      border-radius: 8px;
+      transform: translate3d(0, 0, 0) scale(1);
+      transition: transform .1s ease, box-shadow .2s ease, background-color .2s ease;
+      -webkit-appearance: none;
+      cursor: pointer;
